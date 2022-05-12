@@ -9,7 +9,7 @@ const RequireAuth = ({children}) => {
     const location = useLocation();
 
     if (loading) {
-        return <button class="btn loading">loading</button>
+        return <button className="btn loading">loading</button>
     }
 
     if (!user) {
